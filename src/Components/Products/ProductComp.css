@@ -1,0 +1,88 @@
+.products-comp{
+    margin: auto;
+    margin: 20px;
+    overflow: auto;
+}
+.all-cards{
+    display: flex;
+    gap: 20px;
+    /* overflow-x: auto; */
+}
+.products-comp h3{
+    text-align: left;
+    margin: 20px;
+    /* margin-left: 50px; */
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: black;
+}
+.product-card{
+    width: 366px;
+    /* height: 307px; */
+    padding: 10px;
+    margin: 20px 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.stars-prices{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+.product-name{
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    margin-left: 10px;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: black;
+}
+.star{
+    width: 18px;
+    height: 18px;
+}
+.actual-price{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    text-decoration-line: line-through;
+    color: #444444;
+}
+.discount-price{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: black;
+    margin-left: 10px;
+}
+/* .add-button{
+    padding: 10px;
+    width: 90%;
+    margin: 10px auto;
+    border-radius: 10px;
+    background-color: #23A6F0;
+    color: white;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: white;
+} */
+.product-image{
+    object-fit: cover;
+    width: 366px;
+    height: 307px;
+}

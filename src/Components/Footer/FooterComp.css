@@ -1,0 +1,69 @@
+.footer-comp{
+    margin: 30px auto;
+    margin-top: 70px;
+
+}
+.footer-top{
+    margin-top: 50px;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-top img{
+    margin: 10px;
+}
+.horizontal-line{
+    width: 75%;
+    margin: 25px auto;
+    opacity: 0.6;
+}
+.footer-menu{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.footer-menu-item h5{
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+.your-email{
+    padding: 25px;
+    border: 0.2px solid #737373;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+}
+.subscribe-button{
+    padding: 25px;
+    border: none;
+    outline: none;
+    background-color: #23A6F0;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.love-message{
+    width: 100%;
+    height: 70px;
+    margin-top: 70px;
+    margin-bottom: -30px;
+    display: flex;
+    align-items: center;
+    background-color: #FAFAFA;
+}
+.love-message h6{
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 170px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
